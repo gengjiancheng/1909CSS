@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .rect1{
+        /* fill:bisque; */
+        fill:none;
+        stroke: red;
+        /* 笔迹 */
+        stroke-width: 10px;
+        /* 笔迹的宽度 */
+    }
+    </style>
+</head>
+<body>
+    <!-- svg是用来作图或者画线的，理解成普通的html标签即可
+    rect 是用来画矩形
+    text 是用来书写文字的
+    两者都是svg内部标签
+    line  path....
+    -->
+    <!-- svg的行内属性  width  height  -->
+    <svg width=200 height=100>
+        <!-- 有默认溢出隐藏的样式 -->
+        <!-- fill 填充  默认黑色 -->
+    <!-- <rect width=100 height=50 fill='red'></rect> -->
+    <rect width=100 height=50 class="rect1"></rect>
+    </svg>
+</body>
+</html>

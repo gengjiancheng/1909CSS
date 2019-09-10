@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>珠峰培训5</title>
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- swiper封装好的css -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- HTML5新增的标签 -->
+    <!-- header begin -->
+    <header>
+        <h1 class="logo">
+            <a href="#"></a>
+        </h1>
+        <div class="menu">
+            <span class="icon-menu">
+            </span>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- swiper begin -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/buner.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/buner.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/buner.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/buner.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper end -->
+    <script src="js/swiper.min.js">
+    </script>
+    <!-- main begin -->
+    <main class="main">
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="../微信小程序设计稿/images/buner.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>￥5000.00元</p>
+                </div>
+            </a>
+        </section>
+    </main>
+    <!-- main  end -->
+    <div class="footer">
+        <div class="list1">
+            <img src="images/1.png" alt="">
+            <a href="#">首页</a>
+        </div>
+        <div class="list2">
+            <img src="images/2.png" alt="">
+            <a href="#">我的课程</a>
+        </div>
+        <div class="list3">
+            <img src="images/3.png" alt="">
+            <a href="#">个人中心</a>
+        </div>
+    </div>
+    <!-- 动态判断rem -->
+    <script type="text/javascript">
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            //自动轮播  autoplay：true
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+                //用户操作之后开启自动轮播
+            },
+        })
+    </script>
+</body>
+
+</html>

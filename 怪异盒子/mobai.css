@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+}
+.box{
+    height: 100%;
+    width:100%;
+}
+.a1{
+    float:left;
+    width:25%;
+    height:260px;
+    border:1px solid white;
+    border-top-width: 2px;
+    border-bottom: none;
+    background-color: #b2300b;
+    background-position: center center;
+    box-sizing:border-box;
+    background:url(https://mobike.com/cn/assets/themes/moby/img/promo-01.jpg )
+    no-repeat;
+    background-size: cover;
+}
+.a2{
+    float:left;
+    width:25%;
+    height:260px;
+    border:1px solid white;
+    border-top-width: 2px;
+    border-bottom: none;
+    background-color: #b2300b;
+    background-position: center center;
+    box-sizing:border-box; 
+    background:url(https://mobike.com/cn/assets/themes/moby/img/promo-02.jpg)
+    no-repeat;
+    background-size: cover;
+}
+.a3{
+    float:left;
+    width:25%;
+    height:260px;
+    border:1px solid white;
+    border-top-width: 2px;
+    border-bottom: none;
+    background-color: #b2300b;
+    background-position: center center;
+    box-sizing:border-box; 
+    background:url(https://mobike.com/cn/assets/themes/moby/img/promo-03.jpg)
+    no-repeat;
+    background-size: cover;
+}
+.a4{
+    float:left;
+    width:25%;
+    height:260px;
+    border:1px solid white; 
+    border-top-width: 2px;
+    border-bottom: none;
+    background-color: #b2300b;
+    background-position: center center;
+    box-sizing:border-box;  
+    background:url(https://mobike.com/cn/assets/themes/moby/img/promo-04.jpg) no-repeat;
+    background-size: cover;
+}
+h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 34.2857px;
+    padding: 2.4vw;
+}

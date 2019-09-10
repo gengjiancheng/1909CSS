@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .pic{
+            height: 210px;
+            width: 384px;
+            overflow: hidden;
+        }
+        .pic img{height: 100%;width: 100%;transition: transform
+        1s ease;
+            }
+        /* 鼠标对象是.div 我们要控制的元素是img */
+        .pic:hover img{
+
+            transform: scale(2);
+            opacity:.5;
+        }
+        /* 过渡动画：让动画效果没有那么僵硬  缓冲
+        transition:动画的属性名称  动画持续时间 动画的运动曲线 动画的延迟时间
+        如果想要鼠标移入和移出都有动画，加在动画元素默认的标签身上
+        */
+
+    </style>
+</head>
+<body>
+    <div class="pic">
+        <img src="https://www.huaweicloud.com/content/dam/cloudbu-site/archive/china/zh-cn/home/statics/images/homepage-news-img-mb.jpg" alt="">
+    </div>
+</body>
+</html>

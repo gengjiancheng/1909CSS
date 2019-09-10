@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;height: 400px;background-color: red;
+            font-size: 40px;text-align: center;line-height: 400px;
+        }
+        .box p{
+            /* 过渡属性 */
+            transition-property: all;
+            /* 过渡时间 */
+            transition-duration: 1s;
+            /* 执行频率 */
+            transition-timing-function: ease;
+            /* 延迟时间 */
+            transition-delay: 1s;
+        }
+        .box:hover p{
+            /* 位移 */
+            transform: translateY(-20px)
+        }
+        </style>
+</head>
+<body>
+    <div class="box">
+        <p> 鲲鹏初学者开始指南</p>
+    </div>
+</body>
+</html>

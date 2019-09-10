@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .people{
+            width: 300px;
+            height: 300px;
+            background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563953428294&di=08173c4c9a5c101db154aeccbcfa255d&imgtype=0&src=http%3A%2F%2Fpics7.baidu.com%2Ffeed%2F9c16fdfaaf51f3defe76235effb3dd1a3b2979a2.jpeg%3Ftoken%3Df2b1b5eb39aa81b3ecfb6003fe15f62e%26s%3D8213CF205974FD846311D9D0030030B6) no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+            /* 滚动元素名称 */
+            animation-name: box;
+            /* 滚动时间 */
+            animation-duration: 3s;
+            /* 滚动匀速 */
+            animation-timing-function: ease;
+            /* 运动方向交替运动 */
+            animation-direction: alternate;
+            /*  运动延迟时间 */
+            animation-delay: 2s;
+            /* 结束停留位置backwards开始帧  forwards结束帧*/
+            animation-fill-mode: backwards;
+            /* 运动次数 */
+            animation-iteration-count:infinite;
+        }
+        /* 第一步：把运动的轨迹规定出来 0%=from开始帧 100%=to结束帧*/
+        @keyframes box{
+            0%{transform: translate(0,0)}
+            100%{transform: translate(950px,0px) rotate(360deg)}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="people"></div>
+</body>
+</html>

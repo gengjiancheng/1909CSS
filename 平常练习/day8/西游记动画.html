@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        background: url(https://xyq.res.netease.com/pc/gw/20170118103441/img/ft_e43a6db.webp)
+    }
+
+        .dead{width:200px;
+            height: 312px;
+            background: url(dead.png) no-repeat;
+            animation:dead 1s steps(10) infinite,
+            run 1s ease infinite alternate;}
+        @keyframes dead{
+        0%{background-position: (0 0);}
+        100%{background-position: (-2000px 0);}
+        }
+        @keyframes run{
+        0%{transform:translate(0,0)}
+        100%{transform:translate(900px,0) rotate(360deg)}
+            }
+    </style>
+</head>
+<body>
+    <div class="dead"></div>
+</body>
+</html>

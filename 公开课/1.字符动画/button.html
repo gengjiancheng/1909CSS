@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            position: relative;
+        }
+
+        .box svg rect {
+            fill: none;
+            stroke: red;
+            stroke-width: 10px;
+            stroke-dasharray: 80px 600px;/*前边是框框的实线长度 后边是框框空白的长度*/
+            stroke-dashoffset: -367px;
+            /* 偏移 */
+            transition: all 1s linear;
+        }
+        .box div{
+            position: absolute;
+            width:200px;
+            height:100px;
+            text-align:center;
+            line-height: 100px;
+            top: 0;
+            left: 0;
+            font-size: 40px;
+        }
+        .box:hover svg rect{
+            stroke-dashoffset: 0;
+            stroke-dasharray: 20px 0;
+            stroke: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <svg width=200 height=100>
+            <rect width=200 height=100></rect>
+        </svg>
+        <div>
+            曹丽娜
+        </div>
+    </div>
+</body>
+
+</html>

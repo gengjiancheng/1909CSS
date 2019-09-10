@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    height: 380px;
+    width: 190px;
+    margin-right: 20px;
+    background-color: blue;
+}
+.shang{
+    height: 64px;
+    width: 190px;
+}
+.one i{
+    height: 39px;
+    width: 48px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -134px -328px;
+    position: absolute;
+    left: 25px;
+}
+.one span{
+    height: 62px;
+    width: 190px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -190px -230px;
+    position: absolute;
+    display:inline-block;
+}
+.xia{
+    height: 316px;
+    width: 190px;
+    background-color: red;
+}
+.two i{
+    height: 31px;
+    width: 33px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -253px -199px;
+    position: absolute;
+    left: 30px;
+    top:75px;
+}
+.two a{
+    height: 64px;
+    width: 71px;
+    display: inline-block;
+    padding-left: 81px;
+    line-height: 64px;
+    text-decoration: none;
+}
+
+.three i{
+    height: 36px;
+    width: 28px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -190px -292px;
+    position: absolute;
+    left: 30px;
+   
+}
+.three a{
+    height: 64px;
+    width: 71px;
+    display: inline-block;
+    padding-left: 81px;
+    line-height: 64px;
+    text-decoration: none;
+}
+.four i{
+    height: 31px;
+    width: 32px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -190px -199px;
+    position: absolute;
+    left: 30px;
+}
+.four a{
+    height: 64px;
+    width: 71px;
+    display: inline-block;
+    padding-left: 81px;
+    line-height: 64px;
+    text-decoration: none;
+}
+.five i{
+    height: 32px;
+    width: 30px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -250px -292px;
+    position: absolute;
+    left: 30px;
+}
+.five a{
+    height: 64px;
+    width: 71px;
+    display: inline-block;
+    padding-left: 81px;
+    line-height: 64px;
+    text-decoration: none;
+}
+.six i{
+    height: 32px;
+    width: 30px;
+    background-image:url(https://xyq.res.netease.com/pc/gw/20170118103441/img/spriter/index_z_670b19d.png);
+    background-position: -250px -292px;
+    position: absolute;
+    left: 30px;
+}
+.six a{
+    height: 64px;
+    width: 71px;
+    display: inline-block;
+    padding-left: 81px;
+    line-height: 64px;
+    text-decoration: none;
+}

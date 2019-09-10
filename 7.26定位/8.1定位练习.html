@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            height: 1000px;
+            width: 1000px;
+            background-color: yellow;
+            position: relative;
+        }
+
+        .daohang {
+            height: 200px;
+            width: 50px;
+            position: absolute;
+            top: 100px;
+            right: 50px;
+            background-color: red;
+        }
+
+        .hei {
+            position: fixed;
+            height: 30px;
+            width: 1000px;
+            left: 0;
+            bottom: 15px;
+            background-color: black;
+            box-shadow: 5px 5px 2px 3px red;
+        }
+
+        .neirong {
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 10px;
+            left: 2px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="hei"></div>
+        <div class="daohang">
+            <div class="neirong"></div>
+        </div>
+    </div>
+</body>
+
+</html>

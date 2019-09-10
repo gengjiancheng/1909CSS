@@ -1,0 +1,91 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.a1,
+.a2,
+.a3,
+.a4 {
+    float: left;
+    width: 25%;
+    height: 260px;
+    border: 1px solid white;
+    border-top-width: 2px;
+    border-bottom: none;
+    background-position: center center;
+    box-sizing: border-box;
+    background-size: cover;
+    position: relative;
+}
+
+.a1 {
+    background: url(https://mobike.com/cn/assets/themes/moby/img/promo-01.jpg )no-repeat;
+}
+
+.a2 {
+    background: url(https://mobike.com/cn/assets/themes/moby/img/promo-02.jpg) no-repeat;
+}
+
+.a3 {
+    background: url(https://mobike.com/cn/assets/themes/moby/img/promo-03.jpg) no-repeat;
+}
+
+.a4 {
+    background: url(https://mobike.com/cn/assets/themes/moby/img/promo-04.jpg) no-repeat;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 34.2857px;
+    padding: 2.4vw;
+}
+
+.of-hidden {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: white;
+}
+
+.meta-links {
+    display: flex;
+    flex-wrap: wrap;
+    height: 140px;
+    width: 1040px;
+    position: relative;
+
+}
+
+.tuwen {
+    width: 33.33%;
+    height: 50px;
+    padding: 45px 0;
+}
+
+.icon {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.tuwen h4 {
+    position: relative;
+    height: 22px;
+    width: 0%;
+}
+
+.tuwen p {
+    position: relative;
+    height: 22px;
+    width: 0%;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+    width:100%;   
+}
+.BOX{
+width :1349px;
+height:630px;
+margin: 0 auto;
+}
+.moduleCon{
+    width:1200px;
+    height:151px;
+    margin: 0 74.5px;
+}
+.content_title{
+    text-align: center;
+    color:#000e42;
+    height: 51px;
+    width:1200px;
+    padding-top:35px;
+    font-size:30px;
+    font-weight: 700;
+    line-height: 51px;
+}
+.conetent_second_title{
+    text-align: center;
+    color:#555;
+    width:1200px;
+    height:27px;
+    padding-bottom:30px;
+    margin-top:8px;
+    line-height:27px;
+}
+dt{
+    height:350px;
+    width:570px;  
+}
+img{
+    height:350px;
+    width:570px;
+}
+dd.tit{
+    height:30px;
+    width:560px;
+    font-size:18px;
+    font-weight: bold;
+    margin:5px 0;
+    border-left-width: 5px;
+    border-color:red;
+    border-left-style: solid;
+    padding-left:5px;
+    line-height:30px;
+}
+dd.con{
+    height:69px;
+    width:570px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size:14px;
+    font-weight:400;
+    text-indent: 30px;
+    line-height:23.8px;
+}
+.more{
+    height:23px;
+    width:96.391px;
+    color:#188,0,0; 
+}
+.stuStory{float: left;
+    height: 479px;
+    width:570px;
+    color:#07111B;
+}
+ .zf{
+    float:left;
+    height:420px;
+    width:610px;
+    border-top: none;
+    padding-left:20px;
+    margin-bottom: 10px;}
+    
+    .zf dd:hover
+    {
+        font-weight: bold;
+    }    
+
+a{
+    font-size:14px; 
+    height:30px;
+    width:563px;
+    padding-left: 2px;
+    
+}
+
+dd{
+    float: left;
+    height:30px;
+    width:610px;
+    line-height: 30px;
+}
+
+
+dd a{
+    width:563px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 5px;
+    color:black;
+    text-decoration: none;
+}
+q{
+    display: inline-block;
+    height:15px;
+    width:15px;
+    background-color: #188;
+    margin: 0 8px 0 5px;
+    padding:2px 2px 2px 2px;
+    margin-left:5px;
+    margin-right:8px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+}
+q:before,q:after{
+    content: '';
+}
+em{color:blue;
+    font-style:normal;
+}

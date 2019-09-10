@@ -1,0 +1,346 @@
+/* 网页的版本的公用类名 */
+.col {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* head部分 */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 20px 0;
+    width: 100%;
+
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    position: relative;
+
+}
+
+.nav li a {
+    color: #fff;
+    padding: 0px 20px;
+    display: block;
+}
+
+.layer {
+    opacity: 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 240px;
+    height: 204px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    background: #fff;
+    transition: all .2s ease;
+}
+
+.layer .arrow {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.nav li:hover .layer {
+    opacity: 1;
+}
+
+/* 文字层 */
+.header-txt {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+
+.header-txt .font-logo {
+    font-size: 420%;
+    line-height: 1;
+    margin-bottom: 20px;
+    animation: txt 2s linear infinite;
+}
+
+.header-txt .btn {
+    display: inline-block;
+    height: 31px;
+    padding: 14px 26px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 6px;
+}
+
+@keyframes txt {
+    0% {
+        color: #000
+    }
+
+    20% {
+        color: #000
+    }
+
+    40% {
+        color: #000
+    }
+
+    60% {
+        color: #fff
+    }
+
+    80% {
+        color: #fff
+    }
+
+    100% {
+        color: #fff
+    }
+}
+
+/* 新闻层 */
+.news {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    padding: 10px;
+    color: white;
+}
+
+.news span {
+    display: inline-block;
+    background: linear-gradient(to bottom, #ec614f 0%, #ff2e2e 100%);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    padding: 0 8px;
+}
+
+/* banner */
+html,
+body,
+.swiper-container,
+.swiper-wrappwer,
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(../images/1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-promos {
+    margin-left: -3px;
+    margin-top: 2px;
+}
+
+.hero-promos .hero {
+    float: left;
+    width: 25%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 37px;
+}
+
+/* 福利模块  
+cover:背景X和Y同时缩放，直到碰到容器的边缘，回出现被裁减的情况
+contain：背景X和Y同时缩放，只要一个边碰到容器，就会停止缩放，所以会出现留白的情况*/
+.meta-links {
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+.meta-link {
+    padding: 45px 0;
+    float: left;
+    width: 33.33%;
+}
+
+.meta-link:nth-child(2) {
+    text-align: center;
+}
+
+.meta-link:nth-child(3) {
+    text-align: right;
+}
+
+.meta-link .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: grey;
+}
+
+.meta-link .txt {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* 响应式适配 PAD端*/
+@media screen and (max-width:1080px) {
+    .hero-promos .hero {
+        width: 50%
+    }
+
+    .col {
+        width: auto;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+/* 响应式适配 手机端*/
+@media screen and (max-width:640px) {
+    .hero-promos .hero {
+        width: 100%
+    }
+
+    .meta-link {
+        width: 50%;
+        text-align: left;
+    }
+
+    .neta-link:nth-child(2),
+    .meta-link:nth-child(3) {
+        text-align: left;
+    }
+}
+
+/* 结尾 */
+.footer {
+    height: 245px;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.footer-foot {
+    height: 155px;
+    width: 1041px;
+    padding:0 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.zuo {
+    height: 155px;
+    width: 440px;
+    margin-right: 40px;
+    float: left;
+}
+
+.zuo ul li {
+    height: 36px;
+    width: 440px;
+    line-height: 2.3;
+    font-size: 16px;
+    text-align: left;
+}
+
+.you {
+    height: 155px;
+    width: 560.594px;
+    display: flex;
+    float: right;
+    font-size: 15px;
+
+}
+
+.you h3 {
+    font-size: 17.55px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.you .list1 {
+    height: 155px;
+    line-height: 2;
+}
+
+.you .list2 {
+    height: 155px;
+    line-height: 2;
+    margin-left: 109.2px;
+}
+
+.you .list3 {
+    height: 155px;
+    line-height: 2;
+    margin-left: 109.2px;
+}
+
+.you .list4 {
+    height: 155px;
+    line-height: 2;
+    margin-left: 109.2px;
+}
+.foot-miscs{
+    height:148px;
+    width:1080px;
+    margin: 0 auto;
+}
+.foot-miscs .contain-md{
+    height: 148px;
+    width: 1040px;
+    padding:0 20px;
+    background-color: #ff2e2e; 
+}
+.wenzi{
+    height:58px;
+    padding:45px 0;
+    font-size: 12px;
+    color:#aaa;
+    line-height: 2.3;
+    width:940px;
+}
+/* .contain-md .pic{
+    float: right;
+} */
+.pic img{
+    height:50px;
+    width:50px;
+    margin:0 10px;
+    vertical-align: middle;
+    float: right;
+}

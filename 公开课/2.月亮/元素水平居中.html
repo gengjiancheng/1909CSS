@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS恒星旋转特效</title>
+    <style>
+    /* 定位：三种不同的写法 */
+    *{
+        padding:0;
+        margin:0;
+    }
+    .red{
+        width: 400px;height: 400px;background: red;
+        position: relative;
+    }
+    .black{
+        width: 200px;height: 200px;background: black;
+        position: absolute;top:50%;left: 50%;
+        margin-left: -100px;margin-top: -100px;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 定位 position:absolute  参照物（居中）
+    css3函数cale(%-px);
+    animation 八大属性
+    三角形 border-width  border-style  border-color
+    盒子模型：box-sizing
+    css3属性：圆角、阴影
+    -->
+    <div class="red">
+        <div class="black"></div>
+    </div>
+</body>
+
+</html>

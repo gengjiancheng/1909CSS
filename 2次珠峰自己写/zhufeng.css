@@ -1,0 +1,25 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header{
+    height: 85px;
+    width: 1200px;
+    margin:0px auto;
+}
+.logo{float: left;
+    height: 52px;
+    width: 176px;
+    text-indent: -9999px;
+    background: black;
+}
+.nav{display: inline;
+    font-size: 14px;
+}
+.nav li{
+    float: left;
+}
+.user-center{
+    float: right;
+}
